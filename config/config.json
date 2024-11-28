@@ -1,0 +1,8 @@
+{
+    "baseurl": "http://localhost:8080/QE-index.html",
+    "timeouts": {
+        "implicitWait": 5000,
+        "pageLoad": 10000
+    }
+
+}

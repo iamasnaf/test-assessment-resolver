@@ -1,0 +1,23 @@
+{
+  "name": "test-assessment-resolver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "chromedriver": "^131.0.1",
+    "form-data": "^4.0.1",
+    "i": "^0.3.7",
+    "selenium-webdriver": "^4.27.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.2"
+  }
+}
