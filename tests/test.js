@@ -42,11 +42,11 @@ describe('All Tests', () => {
         // Username verification
         await driver
             .findElement(By.id(LOCATOR.usernameInputId))
-            .sendKeys(CONSTANT.correctEmail);
+            .sendKeys(process.env.username);
         // Password verification
         await driver
             .findElement(By.id(LOCATOR.passwordInputId))
-            .sendKeys(CONSTANT.correctPassword);
+            .sendKeys(process.env.password);
         // Sign In button verification
         await driver
             .findElement(By.xpath(LOCATOR.signInButtonXpath))

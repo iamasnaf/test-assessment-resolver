@@ -9,3 +9,4 @@
 # constants.js contain all the const used throughout the project
 
 # locators.js contains locator of the elements like id, xpaths and classname etc..
+
